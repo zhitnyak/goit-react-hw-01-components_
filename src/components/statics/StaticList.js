@@ -1,7 +1,6 @@
-import PropTipes from 'prop-types';
+import PropTypes from 'prop-types';
 import css from '../statics/static.css';
-
-const StaticList = ({ title, stats }) => {
+const StaticList = ({ title = 'Upload stats', stats }) => {
   return (
     <section className={css.statistics}>
       <h2 className={css.title}>Upload stats</h2>
@@ -17,11 +16,11 @@ const StaticList = ({ title, stats }) => {
   );
 };
 StaticList.propTypes = {
-  title: PropTipes.string.isRequired,
-  stats: PropTipes.arrayOf(
-    PropTipes.shape({
-      label: PropTipes.string.isRequired,
-      percentage: PropTipes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string.isRequired,
+      percentage: PropTypes.number.isRequired,
     }),
   ).isRequired,
 };

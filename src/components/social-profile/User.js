@@ -1,4 +1,4 @@
-import PropTipes from 'prop-types';
+import PropTypes from 'prop-types';
 import css from './user.css';
 
 const User = ({ name, tag, location, ava, followers, views, likes }) => {
@@ -30,14 +30,14 @@ const User = ({ name, tag, location, ava, followers, views, likes }) => {
 };
 
 User.propTypes = {
-  ava: PropTipes.string.isRequired,
-  name: PropTipes.string.isRequired,
-  tag: PropTipes.string.isRequired,
-  location: PropTipes.string.isRequired,
-  stats: PropTipes.shape({
-    followers: PropTipes.number.isRequired,
-    views: PropTipes.number.isRequired,
-    likes: PropTipes.number.isRequired,
+  ava: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  stats: PropTypes.shape({
+    followers: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
+    likes: PropTypes.number.isRequired,
   }).isRequired,
 };
 
