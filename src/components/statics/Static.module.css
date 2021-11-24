@@ -13,7 +13,6 @@
 }
 .title {
   margin-bottom: 20px;
-  color: red;
 }
 
 .statList {
@@ -21,12 +20,6 @@
   width: 100%;
   background-color: #f3f6f9;
 }
-/* ul {
-  padding: 0;
-  display: flex;
-  width: 100%;
-  background-color: #f3f6f9;
-} */
 
 .statItem {
   padding-top: 20px;

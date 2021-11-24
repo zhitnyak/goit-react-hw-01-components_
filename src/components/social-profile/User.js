@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './user.css';
+import css from './User.module.css';
 
 const User = ({ name, tag, location, ava, followers, views, likes }) => {
   return (
