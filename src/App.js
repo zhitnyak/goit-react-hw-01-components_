@@ -2,7 +2,7 @@ import User from './components/social-profile/User';
 import users from './components/social-profile/user.json';
 import StaticList from './components/statics/StaticList';
 import data from './components/statics/data.json';
-import FriendList from './components/friend-list/Friend';
+import FriendList from './components/friend-list/FriendList';
 import friends from './components/friend-list/friends.json';
 import './App.css';
 
