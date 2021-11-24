@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import css from '../statics/static.css';
-const StaticList = ({ title = 'Upload stats', stats }) => {
+import css from './static.css';
+const StaticList = ({ title, stats }) => {
   return (
     <section className={css.statistics}>
-      <h2 className={css.title}>Upload stats</h2>
+      {title && <h2 className={css.title}>{title}</h2>}
       <ul className={css.statList}>
         {stats.map(statItem => (
           <li className={css.statItem} key={statItem.id}>
