@@ -22,10 +22,10 @@ td {
   border-right: 1px solid #e4e4e4;
 }
 
-/* th:last-child,
+th:last-child,
 td:last-child {
   border-right: 0;
-} */
+}
 
 .transactionHistory tr:nth-child(2n) {
   background-color: #eaf0f3;
