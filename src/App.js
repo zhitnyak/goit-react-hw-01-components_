@@ -4,6 +4,8 @@ import StaticList from './components/statics/StaticList';
 import data from './components/statics/data.json';
 import FriendList from './components/friend-list/FriendList';
 import friends from './components/friend-list/friends.json';
+import TransactionHistory from './components/transaction-history/TransactionHistory';
+import transactions from './components/transaction-history/transactions.json';
 import './App.css';
 
 const App = () => {
@@ -20,7 +22,7 @@ const App = () => {
       />
       <StaticList title="Upload stats" stats={data} />
       <FriendList friends={friends} />
-      {/* <TransactionHistory items={transactions} /> */}
+      <TransactionHistory items={transactions} />
     </div>
   );
 };
