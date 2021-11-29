@@ -1,11 +1,11 @@
-import User from './components/social-profile/User';
-import users from './components/social-profile/user.json';
-import StaticList from './components/statics/StaticList';
-import data from './components/statics/data.json';
-import FriendList from './components/friend-list/FriendList';
-import friends from './components/friend-list/friends.json';
-import TransactionHistory from './components/transaction-history/TransactionHistory';
-import transactions from './components/transaction-history/transactions.json';
+import User from './components/SocialProfile/User';
+import users from './components/SocialProfile/user.json';
+import StaticList from './components/Statics/StaticList';
+import data from './components/Statics/data.json';
+import FriendList from './components/FriendList/FriendList';
+import friends from './components/FriendList/friends.json';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
+import transactions from './components/TransactionHistory/transactions.json';
 import './App.css';
 
 const App = () => {
